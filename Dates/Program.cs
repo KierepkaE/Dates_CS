@@ -32,6 +32,14 @@ namespace Dates
             Console.WriteLine("Add Example " + timeSpan.Add(TimeSpan.FromMinutes(8)));
             Console.WriteLine("Subtract Example " + timeSpan.Subtract(TimeSpan.FromMinutes(2)));
 
+            // ToString
+
+            Console.WriteLine("To String: " + timeSpan.ToString());
+
+            // Parse
+
+            Console.WriteLine("Parse: " + TimeSpan.Parse("01:02:03"));
+
         }
 
         }
